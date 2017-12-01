@@ -1,0 +1,46 @@
+body, html{
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+  display: table;
+}
+
+body{
+  display: table-cell;
+  vertical-align: middle;
+  font-family: sans-serif;
+  background: linear-gradient(to top, lightgrey, white, white);
+}
+
+form{
+  display: table;
+  margin: auto;
+  text-align: center;
+  background: linear-gradient(to bottom, white, grey, white, gray);
+  padding: 5px;
+  border: solid;
+  border-radius: 8px;
+  border-color: grey;
+  border-spacing: 10px;
+  box-shadow: 10px 10px 10px #555555;
+  width: 30%;
+}
+
+.field-set{
+  border-color: white;
+
+}
+
+.info-login{
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-weight: bolder;
+}
+
+.login-title{
+  color: white;
+  text-shadow: 2px 2px 2px #222222;
+  font-weight: bolder;
+  font-size: 20px;
+}

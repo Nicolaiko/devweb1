@@ -1,0 +1,134 @@
+#body-ufpr{
+  font-family: sans-serif;
+
+}
+.site{
+  position: relative;
+  top: 190px;
+  width: 100%;
+}
+
+.topo-site{
+  position: absolute;
+  top: 40px;
+  left: 0px;
+
+}
+#logo-federal-nav{
+  position: fixed;
+  top: 1px;
+  left: 20px;
+
+}
+
+.nav-bar{
+  display: inline;
+  position: fixed;
+  top: 0px;
+  left: -1px;
+  border: solid 2px;
+  border-color: darkblue;
+  color: white;
+  background: linear-gradient(to bottom, darkblue, cornflowerblue);
+  border-bottom-right-radius:10px;
+  border-bottom-left-radius:10px;
+  width: 100%;
+  height: 50px;
+  box-shadow: 0px 5px 10px #666666;
+}
+
+.home-nav{
+  float: left;
+  position: relative;
+  left: 60px;
+  top: -10px;
+
+}
+.menu li{
+  display: inline;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font: 16px arial;
+  font-weight: bolder;
+}
+.menu li:hover {
+  background:linear-gradient(to top, darkblue, cornflowerblue);
+  border-radius: 8px;
+}
+
+
+.others-nav {
+  white-space: nowrap;
+  float: right;
+  position: absolute;
+  right: 100px;
+
+}
+
+.Noticias-esquerda{
+  display: block;
+  float: left;
+  width: 65%;
+  text-align: justify;
+  margin-left: 30px;
+  margin-right: 5px;
+}
+.texto-noticias{
+  width: 100%;
+  text-indent: 20px;
+}
+.imagem-noticia{
+  width: 55%;
+  height: 55%;
+}
+.Eventos-direita{
+  display: block;
+  width: 25%;
+  float: right;
+  text-align: justify;
+  margin-right: 30px;
+  margin-left: 5px;
+  padding-top: 10px;
+}
+.Eventos-direita ul{
+  padding-left: 10px;
+}
+.evt{
+  margin-bottom: 20px;
+}
+
+.footer{
+  position: absolute;
+  top: 1000px;
+  left: -10px;
+  background: linear-gradient(to bottom, white 20%, darkblue 120%);
+  background-size: contain;
+  width: 1350px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: inline;
+}
+
+.contact-img{
+  width: 70px;
+  height: 70px;
+  margin-top: 20px;
+  align-items: center;
+
+}
+
+#lista-contatos li{
+  display: block;
+  font-weight: bolder;
+  margin-bottom: 2px;
+}
+
+.foot{
+  width: 100%;
+  text-align: center;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+}
